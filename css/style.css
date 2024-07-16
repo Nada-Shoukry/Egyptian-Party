@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* -- Google Fonts -- */
+
+/* ---- */
+
+.main-color {
+    color:#D62E33;
+}
+
+.bg-main {
+    background-color: rgba(214, 46, 51, 0.6);
+}
+
+/* -- Home Section -- */
+
+.home .home-bg{
+    background-image: url("../images/events-heavenly-header.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.home h1{
+    font-size: 48px;
+}
+
+.home-layer {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(214, 46, 51, 0.6);
+}
+
+.side-bar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 99;
+}
+
+.side-menu ul a{
+    color: white;
+    transition: all .2s;
+    text-decoration: none;
+}
+
+.side-menu ul li a:hover {
+    color: #D62E33;
+}
+
+.side-menu .icon-close{
+    transition: all .2s;
+    cursor: pointer;
+}
+
+.side-menu .icon-close:hover {
+    color: #D62E33;
+}
+
+.side-icon {
+    cursor: pointer;
+}
+ .open {
+    display: flex;
+ }
+
+/* -- Section 2 - Details -- */
+
+.slider {
+    width: 50%;
+    background-color:  rgba(214, 46, 51, 0.6);
+}
+
+.slider h3 {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.first-slide,
+.slide {
+    line-height: 1.7;
+    background-color: #ccc;
+}
+
+.slide{
+    display: none;
+}
+
+/*  Responsive  */
+
+@media only screen and (max-width: 980px) {
+    .slider {
+        width : 90% ;
+    }
+
+}
+
+@media only screen and (max-width: 756px) {
+
+    .slider {
+        width : 100% ;
+    }
+
+}
+
+
+/* -- Section 3 - Duration -- */
+
+.duration {
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* height: 250px; */
+}
+
+.duration-layer {
+    background-color:rgba(214, 46, 51, 0.6);
+}
+
+.duration-timer {
+    border: 1px solid white;
+    margin: 0 20px;
+}
+
+/* -- Section 4 - Contacts -- */
+
+.contacts-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgba(214, 46, 51, 0.6);
+    transition: all .2s;
+    cursor: pointer;
+    margin-right: 8px;
+}
+.contacts-icon:hover {
+    background-color:#D62E33;
+    color: white;
+}
+
+/* --- form --- */
+
+.contacts-block .btn {
+    background-color: rgba(214, 46, 51, 0.6);
+    color: white;
+    transition: all .2s;
+}
+
+.contacts-block .btn:hover {
+    background-color: #D62E33;
+    color: white;
+}
+
+form #charNum {
+    color:  #D62E33;
+}
+
+.form-control:focus {
+    border: none;
+    outline: 0;
+    box-shadow: 0 0 0 2px #D62E33;
+}
+
+input::-webkit-input-placeholder {
+    color: #D62E33 !important;
+}
+
+input:-moz-placeholder {
+    color: #D62E33 !important;
+}
+
+textarea::-webkit-input-placeholder {
+    color: #D62E33 !important;
+}
+
+textarea:-moz-placeholder {
+    color: #D62E33 !important;
+}
